@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Звіти Залевської Олени</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<div class="container">
+    <div class="top-frame">
+        <h1>ЗВІТИ З ЛАБОРАТОРНИХ РОБІТ</h1>
+        <h1>З ДИСЦИПЛІНИ "WEB-ОРІЄНТОВНІ ТЕХНОЛОГІЇ."</h1>
+        <h1>ОСНОВИ FRONTEND та BACKEND РОЗРОБОК</h1>
+        <h2>Студентки групи ІО-24 Залевська Олена</h2>
+        <img src="olena.jpg" alt="olena">
+        <button onclick="updateSecondFrame('lab1')">Лабораторна робота №1</button>
+        <button onclick="updateSecondFrame('lab2')">Лабораторна робота №2</button>
+        <button onclick="updateSecondFrame('lab3')">Лабораторна робота №3</button>
+        <button onclick="updateSecondFrame('lab4')">Лабораторна робота №4</button>
+        <button onclick="updateSecondFrame('lab5')">Лабораторна робота №5</button>
+        <button onclick="updateSecondFrame('lab6')">Лабораторна робота №6</button>
+        <button onclick="updateSecondFrame('lab7')">Лабораторна робота №7</button>
+        <button onclick="updateSecondFrame('lab8')">Лабораторна робота №8</button>
+    </div>
+
+    <div class="main-content">
+        <div class="left-frame" id="secondFrame">
+        </div>
+        <div class="right-frame" id="thirdFrame">
+
+            <div id="lab1-section1" class="lab-content">
+                <h2>Інтерактивна платформа для гостей бару</h2>
+                <p>Цей сайт — сучасна інтерактивна платформа, яка надає клієнтам можливість ознайомитися з послугами закладу,
+                    здійснювати бронювання, переглядати події та користуватися додатковими функціями.</p>
+
+                <h3>Основні можливості:</h3>
+
+                <ul>
+                    <li> <b>Перегляд меню</b> – ознайомлення з асортиментом напоїв і закусок, складом, об’ємом та вартістю.</li>
+                    <li> <b>Онлайн-бронювання</b> – вибір дати, часу та місця у барі. Адміністратор може уточнити деталі.</li>
+                    <li> <b>Створення та управління профілем</b> – збереження особистої інформації та перегляд історії відвідувань.</li>
+                    <li> <b>Перенесення та скасування бронювання</b> – можливість змінювати або скасовувати бронь.</li>
+                    <li> <b>Онлайн-оплата</b> – безпечні способи оплати, включаючи депозит і чайові.</li>
+                    <li> <b>Афіша подій</b> – перегляд розкладу майбутніх заходів, концертів і спецпропозицій.</li>
+                </ul>
+
+                <p>Ця платформа робить взаємодію гостей із закладом комфортнішою, автоматизує процеси та покращує обслуговування.</p>
+            </div>
+
+            <div id="lab1-section2" class="lab-content">
+                <h2>Тема:</h2>
+                <p>СТРУКТУРА HTML-ДОКУМЕНТА. ВИБІР ПРЕДМЕТНОЇ ГАЛУЗІ. GitHub. РОБОТА З РЕПОЗИТОРІЯМИ. ОСНОВНІ ТЕГИ ТА АТРИБУТИ в HTML-ДОКУМЕНТІ.</p>
+                <h2>Мета:</h2>
+                <p>Придбати практичні навички роботи з GitHub, репозиторіями, HTML-документом, таблицями, зображеннями, посиланнями, списками, формами
+                    Створити шаблон звітного HTML-документа для відображення результатів роботи всіх лабораторних робіт.
+                </p>
+                <h2>Посилання:</h2>
+                <a href="https://github.com/zlevskaolena/IO-24_appWEB-ZalevskaOlena-FIOT-2025">Репозиторій WEB-застосунку</a>
+                <a href="https://zlevskaolena.github.io/IO-24_appWEB-ZalevskaOlena-FIOT-2025/">Жива сторінка WEB-застосунку</a>
+
+                <a href=https://github.com/zlevskaolena/IO-24_-appRECORD--ZalevskaOlena--FIOT-2025" >Репозиторій звіту</a>
+                <a href="">Жива сторінка звіту</a>
+
+                <a href="https://github.com/zlevskaolena/IO-24_-INDEPENDENT-ZalevskaOlena-FIOT-2025">Репозиторій з самостійними роботами</a>
+                <a href="https://zlevskaolena.github.io/IO-24_-INDEPENDENT-ZalevskaOlena-FIOT-2025/">Жива сторінка з самостійними</a>
+
+            </div>
+
+            <div id="lab1-section3" class="lab-content">
+                <h2>Структура головної сторінки WEB-застосунку</h2>
+                <h2>Таблиця</h2>
+                <h3>HTML-код таблиці:</h3>
+                <pre>
+                    <code>
+&lt;table border="1"&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Освіта&lt;/th&gt;
+        &lt;th&gt;Хобі&lt;/th&gt;
+        &lt;th&gt;Навички&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Багатопрофільний ліцей №62 (м.Запоріжжя)&lt;/td&gt;
+        &lt;td&gt;Йога&lt;/td&gt;
+        &lt;td&gt;3d-моделювання&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Міський палац дитячої та юнацької творчості (м.Запоріжжя)&lt;/td&gt;
+        &lt;td&gt;Танці
+            &lt;ul&gt;
+                &lt;li&gt;Східні&lt;/li&gt;
+                &lt;li&gt;Контемп&lt;/li&gt;
+                &lt;li&gt;Джаз&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/td&gt;
+        &lt;td&gt;Аналіз даних&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Національний технічний університет України «Київський політехнічний інститут імені Ігоря Сікорського»&lt;/td&gt;
+        &lt;td&gt;Бартендерінг&lt;/td&gt;
+        &lt;td&gt;Програмування:
+            &lt;ul&gt;
+                &lt;li&gt;HTML&lt;/li&gt;
+                &lt;li&gt;CSS&lt;/li&gt;
+                &lt;li&gt;JavaScript&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+                    </code>
+                </pre>
+                <h3>Cкріншот таблиці:</h3>
+                <img src="table.png" alt="Таблиця" class="img">
+                <h3>Теорія про таблиці:</h3>
+                <ul>
+                    <li><code>&lt;table&gt;</code> — тег для створення таблиці.</li>
+                    <li><code>&lt;tr&gt;</code> — тег для визначення рядка таблиці.</li>
+                    <li><code>&lt;th&gt;</code> — тег для визначення заголовка стовпця таблиці.</li>
+                    <li><code>&lt;td&gt;</code> — тег для визначення клітинки таблиці.</li>
+                    <li>Атрибут <code>border="1"</code> додає рамку навколо таблиці та її клітинок.</li>
+                </ul>
+
+                <h2>Зображеня</h2>
+                <h3>HTML-код зображення:</h3>
+                <pre>
+<code>
+&lt;img src="me.jpg" alt="Оленка" class="img"&gt;
+</code>
+        </pre>
+                <h3>Скріншот зображення:</h3>
+                <img src="img.png" alt="зображення" class="img">
+                <h3>Теорія про зображення:</h3>
+                <ul>
+                    <li><code>&lt;img&gt;</code> — тег для вставки зображень.</li>
+                    <li>Атрибут <code>src</code> вказує шлях до зображення.</li>
+                    <li>Атрибут <code>alt</code> — альтернативний текст для зображення (показується, якщо зображення не завантажилось або для користувачів з обмеженими можливостями).</li>
+                    <li>Атрибут <code>class="img"</code> дозволяє стилізувати зображення через CSS.</li>
+                </ul>
+
+                <h2>Списки</h2>
+                <h3>HTML-код списків:</h3>
+                <pre>
+<code>
+&lt;ul&gt;
+    &lt;li&gt;Східні танці&lt;/li&gt;
+    &lt;li&gt;Контемп&lt;/li&gt;
+    &lt;li&gt;Джаз&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;HTML&lt;/li&gt;
+    &lt;li&gt;CSS&lt;/li&gt;
+    &lt;li&gt;JavaScript&lt;/li&gt;
+&lt;/ul&gt;
+</code>
+        </pre>
+                <h3>Скріншоти списків:</h3>
+                <img src="list.png" alt="списки" class="img">
+                <p>Теорія про списки:</p>
+                <ul>
+                    <li><code>&lt;ul&gt;</code> — тег для створення ненумерованого списку.</li>
+                    <li><code>&lt;li&gt;</code> — тег для кожного елементу списку.</li>
+                    <li>Використовуємо <code>&lt;ul&gt;</code>, коли не важливо, в якому порядку елементи, і хочемо створити маркований список.</li>
+                </ul>
+
+                <h2>Посилання</h2>
+                <h3>HTML-код посилань:</h3>
+                <pre>
+<code>
+&lt;a href="bar%20page/bar.html"&gt;Хочеш глянути інформацію про мій бар?&lt;/a&gt;
+</code>
+        </pre>
+                <h3>Скріншот посилання:</h3>
+                <img src="link.png" alt="посилання" class="img">
+                <h3>Теорія про посилання:</h3>
+                <ul>
+                    <li><code>&lt;a&gt;</code> — тег для створення гіперпосилань.</li>
+                    <li>Атрибут <code>href</code> вказує адресу сторінки, на яку веде посилання.</li>
+                    <li>В тексті між тегами вказуємо назву або опис посилання.</li>
+                </ul>
+
+                <h2>Форма</h2>
+                <h3>HTML-код форми:</h3>
+                <pre>
+<code>
+&lt;form action="/submit-form" method="POST"&gt;
+    &lt;label for="name"&gt;Ім'я:&lt;/label&gt;
+    &lt;input type="text" id="name" name="name" required&gt;
+    &lt;br&gt;
+
+    &lt;label for="email"&gt;Email:&lt;/label&gt;
+    &lt;input type="email" id="email" name="email" required&gt;
+    &lt;br&gt;
+
+    &lt;label for="message"&gt;Повідомлення:&lt;/label&gt;
+    &lt;input id="message" name="message" required&gt;
+    &lt;br&gt;
+
+    &lt;button type="submit"&gt;Відправити&lt;/button&gt;
+&lt;/form&gt;
+</code>
+        </pre>
+                <h3>Скріншот форми:</h3>
+                <img src="form.png" alt="посилання" class="img">
+                <h3>Теорію про форми:</h3>
+                <ul>
+                    <li><b>&lt;form&gt;</b> — Тег для створення форми. Визначає область, у межах якої користувач може вводити дані.</li>
+                    <li><b>&lt;input&gt;</b> — Тег для створення елементів введення (текстові поля, кнопки, прапорці тощо).</li>
+                    <li><b>&lt;label&gt;</b> — Тег для прив'язки текстового опису до елемента форми (наприклад, до текстового поля).</li>
+                    <li><b>&lt;button&gt;</b> — Тег для створення кнопки, яку користувач може натискати.</li>
+                    <li><b>&lt;select&gt;</b> та <b>&lt;option&gt;</b> — Теги для створення випадаючих списків.</li>
+                </ul>
+            </div>
+
+            <div id="lab1-section4" class="lab-content">
+                <h2>Висновки</h2>
+                <p>У результаті виконання цього проєкту я здобула практичні навички роботи з HTML, створивши таблиці, списки, посилання та форми для збору даних.
+                    Також освоїла GitHub для управління кодом і співпраці з іншими розробниками, створивши репозиторій для зберігання проєкту.
+                    Створення бізнес-логіки та моделі сайту в Figma допомогло зрозуміти структуру інтерфейсу,
+                    що стало важливим кроком у розвитку навичок веб-розробки та підготовці до роботи на реальних проєктах.</p>
+            </div>
+
+        </div>
+    </div>
+    </div>
+</body>
+</html>
