@@ -13,9 +13,11 @@ function updateSecondFrame(lab) {
 
     if (lab === 'lab2') {
         secondFrame.innerHTML = `
-            <button onclick="showSection('lab2-section1')">Вступ</button>
-            <button onclick="showSection('lab2-section2')">Задачі</button>
-            <button onclick="showSection('lab2-section3')">Результати</button>
+            <button onclick="showSection('lab2-section1')">Тема, мета лабораторної роботи №2</button>
+            <button onclick="showSection('lab2-section2')">Способи підключення стилів</button>
+            <button onclick="showSection('lab2-section3')">Селектори</button>
+            <button onclick="showSection('lab2-section4')">CSS</button>
+            <button onclick="showSection('lab2-section5')">Висновки до лабораторної №2</button>
         `;
     }
 }

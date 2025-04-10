@@ -102,3 +102,11 @@ a {
 a:hover {
     color: #736958;
 }
+code {
+    background: rgba(115, 105, 88, 0.22);
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    white-space: pre-wrap;
+    border-left: 4px solid #425B42;
+}
