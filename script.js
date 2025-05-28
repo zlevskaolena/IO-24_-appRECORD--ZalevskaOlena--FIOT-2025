@@ -20,6 +20,21 @@ function updateSecondFrame(lab) {
             <button onclick="showSection('lab2-section5')">Висновки до лабораторної №2</button>
         `;
     }
+    if (lab === 'lab3') {
+        secondFrame.innerHTML = `
+            <button onclick="showSection('lab3-section1')">Тема, мета лабораторної роботи №3.1</button>
+            <button onclick="showSection('lab3-section2')">Завдання №1</button>
+            <button onclick="showSection('lab3-section3')">Завдання №2</button>
+            <button onclick="showSection('lab3-section4')">Завдання №3</button>
+        `;
+    }
+    if (lab === 'course') {
+        secondFrame.innerHTML = `
+            <button onclick="showSection('course-section1')">Повний Курс з React, Redux і Redux Toolkit</button>
+            <button onclick="showSection('course-section2')">Node.js - Повний Курс з Node.js</button>
+            <button onclick="showSection('course-section3')">JavaScript Advanced - продвинуті концепції мови і ООП</button>
+        `;
+    }
 }
 
 function showSection(sectionId) {

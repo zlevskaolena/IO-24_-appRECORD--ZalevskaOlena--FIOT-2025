@@ -17,12 +17,10 @@
         <img src="olena.jpg" alt="olena">
         <button onclick="updateSecondFrame('lab1')">Лабораторна робота №1</button>
         <button onclick="updateSecondFrame('lab2')">Лабораторна робота №2</button>
-        <button onclick="updateSecondFrame('lab3')">Лабораторна робота №3</button>
-        <button onclick="updateSecondFrame('lab4')">Лабораторна робота №4</button>
-        <button onclick="updateSecondFrame('lab5')">Лабораторна робота №5</button>
-        <button onclick="updateSecondFrame('lab6')">Лабораторна робота №6</button>
-        <button onclick="updateSecondFrame('lab7')">Лабораторна робота №7</button>
-        <button onclick="updateSecondFrame('lab8')">Лабораторна робота №8</button>
+        <button onclick="updateSecondFrame('lab3')">Лабораторна робота №3.1</button>
+        <button onclick="updateSecondFrame('course')">Курси</button>
+
+
     </div>
 
     <div class="main-content">
@@ -525,6 +523,194 @@
                     Отримані знання є фундаментальними для подальшого вивчення веброзробки та створення адаптивного дизайну.
                 </p>
             </div>
+
+            <!------------------------------------LAB1---------------------------------------->
+            <div id="lab3-section1" class="lab-content">
+                <h2>Тема:</h2>
+                <p>ВЕРСТКА HTML-ДОКУМЕНТУ. БЛОКОВА ВЕРСТКА.  ВЕРСТКА ЗАСОБАМИ CSS та FLEXBOX.</p>
+                <h2>Мета:</h2>
+                <p>Придбати практичні навички роботи верстки сторінок засобами CSS, верстки на основі плаваючих елементів,
+                    з’ясувати переваги та недоліки типів макетів веб-сторінок. Придбати практичні навички роботи верстки
+                    сторінок засобами CSS та FLEXBOX
+
+                </p>
+                <h2>Посилання:</h2>
+                <a href="https://github.com/zlevskaolena/IO-24_appWEB-ZalevskaOlena-FIOT-2025">Репозиторій WEB-застосунку</a>
+                <a href="https://zlevskaolena.github.io/IO-24_appWEB-ZalevskaOlena-FIOT-2025/">Жива сторінка WEB-застосунку</a>
+
+                <a href="https://github.com/zlevskaolena/IO-24_-appRECORD--ZalevskaOlena--FIOT-2025" >Репозиторій звіту</a>
+                <a href="https://zlevskaolena.github.io/IO-24_-appRECORD--ZalevskaOlena--FIOT-2025/">Жива сторінка звіту</a>
+
+                <a href="https://github.com/zlevskaolena/IO-24_-INDEPENDENT-ZalevskaOlena-FIOT-2025">Репозиторій з самостійними роботами</a>
+                <a href="https://zlevskaolena.github.io/IO-24_-INDEPENDENT-ZalevskaOlena-FIOT-2025/">Жива сторінка з самостійними</a>
+
+            </div>
+            <div id="lab3-section2" class="lab-content">
+                <h3>Скріншот головної сторінки мого сайту:</h3>
+                <img src="mine_web.png" alt="web_olena" class="img">
+                <h3>Я застосувала концепцію Flexbox — це дозволяє зручно ділити екран на частини і адаптувати вміст.
+                    Також я використовую модель коробки (Box Model), стилі для кнопок, форм, таблиць, а також hover-ефекти і стилізацію скролбару.</h3>
+                    <pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;link rel="stylesheet" href="style.css"&gt;
+    &lt;link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&amp;display=swap" rel="stylesheet"&gt;
+    &lt;title&gt;Оленка&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class="container"&gt;
+        &lt;div class="left-frame"&gt;
+            &lt;h1&gt;Йоу, мене звати&lt;/h1&gt;
+            &lt;img src="me.jpg" alt="оленка" class="img"&gt;
+            &lt;h1&gt;Залевська Олена&lt;/h1&gt;
+            &lt;p&gt;+380504546137&lt;br&gt;zalevskaalena25@gmail.com&lt;/p&gt;
+            &lt;a href="bar%20page/bar.html"&gt;Хочеш глянути інформацію про мій бар?&lt;/a&gt;
+        &lt;/div&gt;
+
+        &lt;div class="right-frame"&gt;
+            &lt;h2&gt;Про мене&lt;/h2&gt;
+            &lt;table border="1"&gt;
+                &lt;tr&gt;
+                    &lt;th&gt;Освіта&lt;/th&gt;
+                    &lt;th&gt;Хобі&lt;/th&gt;
+                    &lt;th&gt;Навички&lt;/th&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;Багатопрофільний ліцей №62 (м.Запоріжжя)&lt;/td&gt;
+                    &lt;td&gt;Йога&lt;/td&gt;
+                    &lt;td&gt;3d-моделювання&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;Міський палац дитячої та юнацької творчості (м.Запоріжжя)&lt;/td&gt;
+                    &lt;td&gt;Танці
+                        &lt;ul&gt;
+                            &lt;li&gt;Східні&lt;/li&gt;
+                            &lt;li&gt;Контемп&lt;/li&gt;
+                            &lt;li&gt;Джаз&lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/td&gt;
+                    &lt;td&gt;Аналіз даних&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;НТУУ “КПІ ім. Ігоря Сікорського”&lt;/td&gt;
+                    &lt;td&gt;Бартендерінг&lt;/td&gt;
+                    &lt;td&gt;Програмування:
+                        &lt;ul&gt;
+                            &lt;li&gt;HTML&lt;/li&gt;
+                            &lt;li&gt;CSS&lt;/li&gt;
+                            &lt;li&gt;JavaScript&lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+
+            &lt;h3&gt;Давай знайомитись?&lt;/h3&gt;
+            &lt;form action="/submit-form" method="POST"&gt;
+                &lt;label for="name"&gt;Ім'я:&lt;/label&gt;
+                &lt;input type="text" id="name" name="name" required&gt;&lt;br&gt;
+                &lt;label for="email"&gt;Email:&lt;/label&gt;
+                &lt;input type="email" id="email" name="email" required&gt;&lt;br&gt;
+                &lt;label for="message"&gt;Повідомлення:&lt;/label&gt;
+                &lt;input id="message" name="message" required&gt;&lt;br&gt;
+                &lt;button type="submit"&gt;Відправити&lt;/button&gt;
+            &lt;/form&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+                <h3>Я використовую адаптивний макет на основі Flexbox. Ліва частина займає 30%,
+                    а права — динамічно підлаштовується під ширину екрана. Це дозволяє сторінці виглядати добре на різних розмірах дисплеїв.</h3>
+            </div>
+            <div id="lab3-section3" class="lab-content">
+                <h2>1. Фіксована таблична верстка</h2>
+                <table class="fixed-table">
+                    <tr>
+                        <td>Стовпець 1</td>
+                        <td>Стовпець 2</td>
+                        <td>Стовпець 3</td>
+                    </tr>
+                    <tr>
+                        <td>Контент 1</td>
+                        <td>Контент 2</td>
+                        <td>Контент 3</td>
+                    </tr>
+                </table>
+
+                <h2>2. Гумова таблична верстка</h2>
+                <table class="fluid-table">
+                    <tr>
+                        <td>Стовпець A</td>
+                        <td>Стовпець B</td>
+                        <td>Стовпець C</td>
+                    </tr>
+                    <tr>
+                        <td>Дані A</td>
+                        <td>Дані B</td>
+                        <td>Дані C</td>
+                    </tr>
+                </table>
+
+                <h2>3. Фіксована блокова верстка (float)</h2>
+                <div class="fixed-blocks">
+                    <div class="fixed-block">Блок 1</div>
+                    <div class="fixed-block">Блок 2</div>
+                    <div class="fixed-block">Блок 3</div>
+                </div>
+
+                <h2>4. Гумова блокова верстка (float)</h2>
+                <div class="fluid-blocks">
+                    <div class="fluid-block">Блок A</div>
+                    <div class="fluid-block">Блок B</div>
+                    <div class="fluid-block">Блок C</div>
+                </div>
+            </div>
+            <div id="lab3-section4" class="lab-content"></div>
+        </div>
+        <div id="course-section1" class="lab-content">
+            <h2>Повний Курс з React, Redux і Redux Toolkit</h2>
+            <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/?srsltid=AfmBOorTuVRrnQLQSCbT-kZ2khJeWXgTDmqM0X1fm6xUvjwvylH-BslP&couponCode=CP130525">Посилання на курс</a>
+            <h2>Висновок:</h2>
+            <p>Пройшовши цей курс, я навчилася не просто працювати з React, а й зрозуміла, як будується сучасний
+                фронтенд-проєкт. Особливо корисним було ознайомлення з Redux і Redux Toolkit — тепер я знаю, як ефективно
+                керувати станом навіть у великих застосунках. Також навички роботи з компонентами, хуками, роутінгом і
+                асинхронною логікою стали набагато чіткішими. Курс дав мені не лише теорію, а й багато практики —
+                я створювала реальні додатки, бачила, як працює структура проєкту, і вперше відчула, що можу зібрати все
+                “від і до” самостійно. Це був дійсно сильний поштовх уперед.</p>
+            <h2>Сертифікат:</h2>
+            <img src="sert.jpg" alt="сертифікат1" class="img">
+
+        </div>
+        <div id="course-section2" class="lab-content">
+            <h2>Node.js - Повний Курс з Node.js</h2>
+            <a href="https://ua.udemy.com/course/nodejs-ru/learn/lecture/37000166#overview">Посилання на курс</a>
+            <h2>Висновок:</h2>
+            <p>Після проходження цього курсу я навчилася працювати з Node.js на практиці — створювати сервери,
+                обробляти HTTP-запити, підключати базу даних і будувати API. Курс добре пояснює як базові, так і більш
+                просунуті теми, такі як middleware, авторизація, робота з JWT і асинхронність через async/await. Завдяки
+                практичним прикладам стало набагато легше зрозуміти, як працює бекенд і як поєднувати його з фронтендом.
+                Тепер я впевненіше почуваю себе у ролі розробника і можу самостійно створювати прості серверні застосунки.
+            </p>
+            <h2>Сертифікат:</h2>
+            <img src="sert2.jpg" alt="сертифікат2" class="img">
+
+        </div>
+        <div id="course-section3" class="lab-content">
+            <h2>JavaScript Advanced - продвинуті концепції мови і ООП</h2>
+            <a href="https://ua.udemy.com/course/javascript-advance/learn/lecture/36331732#overview">Посилання на курс</a>
+            <h2>Висновок:</h2>
+            <p>Цей курс допоміг мені краще зрозуміти складніші частини JavaScript, які раніше були незрозумілими або
+                плутаними. Я розібралася в таких темах, як замикання (closures), контекст виклику (this), прототипне
+                наслідування, класи, модулі та робота з памʼяттю. Також стало зрозуміло, як застосовувати принципи
+                об'єктно-орієнтованого програмування (ООП) на практиці. Курс дав змогу не просто вивчити синтаксис, а
+                зрозуміти, як працює мова «всередині» — і це зробило мене впевненішою під час написання більш складного
+                коду.
+            </p>
+            <h2>Сертифікат:</h2>
+            <img src="sert3.jpg" alt="сертифікат3" class="img">
 
         </div>
     </div>
